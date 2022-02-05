@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "public": "_site",
+    "site": "paulonia-handbook",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
