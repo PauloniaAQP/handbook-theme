@@ -49,6 +49,16 @@
         <li {% if url_last == 'development' %}class="Selected"{% endif %}>
           <a href="{{ site.baseurl }}/{{ site.handbooks_path }}/development/">Introducción</a>
         </li>
+        <li {% if url_last == 'roles' and url_area == 'development'  %}class="Selected"{% endif %}>
+          <a href="{{ site.baseurl }}/{{ site.handbooks_path }}/development/roles">Roles</a>
+        </li>
+        <li {% if url_last == 'herramientas' and url_area == 'development' %}class="Selected"{% endif %}>
+          <a href="{{ site.baseurl }}/{{ site.handbooks_path }}/development/herramientas">Herramientas y paquetes</a>
+        </li>
+        <li {% if url_last == 'newcomers' and url_area == 'development' %}class="Selected"{% endif %}>
+          <a href="{{ site.baseurl }}/{{ site.handbooks_path }}/development/newcomers">Recien llegados</a>
+        </li>
+        
       </ul>
     </li>
 
