@@ -38,6 +38,17 @@
             </li>
           </ul>
         </li>
+        <li {% if url_last == 'security' and url_area == 'paulonia' %}class="Selected"{% endif %}>
+          <a href="{{ site.baseurl }}/{{ site.handbooks_path }}/paulonia/security/">Seguridad</a>
+          <ul>
+            <li {% if url_last == 'vault' and url_area == 'security' %}class="Selected"{% endif %}>
+              <a href="{{ site.baseurl }}/{{ site.handbooks_path }}/paulonia/security/vault">Vault</a>
+            </li>
+            <li {% if url_last == 'vault_admins' and url_area == 'security' %}class="Selected"{% endif %}>
+              <a href="{{ site.baseurl }}/{{ site.handbooks_path }}/paulonia/security/vault_admins">Vault para admins</a>
+            </li>
+          </ul>
+        </li>
       </ul>
     </li>
 
