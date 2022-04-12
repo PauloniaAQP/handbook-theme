@@ -33,6 +33,9 @@
         <li {% if url_last == 'processes' and url_area == 'paulonia' %}class="Selected"{% endif %}>
           <a href="{{ site.baseurl }}/{{ site.handbooks_path }}/paulonia/processes/">Procesos</a>
           <ul>
+            <li {% if url_last == 'scrum' and url_area == 'processes' %}class="Selected"{% endif %}>
+              <a href="{{ site.baseurl }}/{{ site.handbooks_path }}/paulonia/processes/scrum">SCRUM</a>
+            </li>
             <li {% if url_last == 'vacation' and url_area == 'processes' %}class="Selected"{% endif %}>
               <a href="{{ site.baseurl }}/{{ site.handbooks_path }}/paulonia/processes/vacation">Vacaciones</a>
             </li>
