@@ -39,6 +39,12 @@
             <li {% if url_last == 'vacation' and url_area == 'processes' %}class="Selected"{% endif %}>
               <a href="{{ site.baseurl }}/{{ site.handbooks_path }}/paulonia/processes/vacation">Vacaciones</a>
             </li>
+            <li {% if url_last == 'recruitment' and url_area == 'processes' %}class="Selected"{% endif %}>
+              <a href="{{ site.baseurl }}/{{ site.handbooks_path }}/paulonia/processes/recruitment">Reclutamiento</a>
+            </li>
+            <li {% if url_last == 'recruitmentleads' and url_area == 'processes' %}class="Selected"{% endif %}>
+              <a href="{{ site.baseurl }}/{{ site.handbooks_path }}/paulonia/processes/recruitmentleads">Reclutamiento (Team leads)</a>
+            </li>
           </ul>
         </li>
         <li {% if url_last == 'security' and url_area == 'paulonia' %}class="Selected"{% endif %}>
