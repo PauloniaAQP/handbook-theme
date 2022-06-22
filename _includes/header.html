@@ -22,6 +22,9 @@
         <li {% if url_last == 'lifecycle' and url_area == 'paulonia' %}class="Selected"{% endif %}>
           <a href="{{ site.baseurl }}/{{ site.handbooks_path }}/paulonia/lifecycle/">Ciclo de vida</a>
           <ul>
+            <li {% if url_last == 'lifecycle' and url_area == 'paulonia' %}class="Selected"{% endif %}>
+              <a href="{{ site.baseurl }}/{{ site.handbooks_path }}/paulonia/lifecycle/">Ciclo de vida</a>
+            </li>
             <li {% if url_last == 'maintenance' and url_area == 'lifecycle' %}class="Selected"{% endif %}>
               <a href="{{ site.baseurl }}/{{ site.handbooks_path }}/paulonia/lifecycle/maintenance">Mantenimiento</a>
             </li>
@@ -36,6 +39,9 @@
         <li {% if url_last == 'processes' and url_area == 'paulonia' %}class="Selected"{% endif %}>
           <a href="{{ site.baseurl }}/{{ site.handbooks_path }}/paulonia/processes/">Procesos</a>
           <ul>
+            <li {% if url_last == 'processes' and url_area == 'paulonia' %}class="Selected"{% endif %}>
+              <a href="{{ site.baseurl }}/{{ site.handbooks_path }}/paulonia/processes/">Introducción</a>
+            </li>
             <li {% if url_last == 'scrum' and url_area == 'processes' %}class="Selected"{% endif %}>
               <a href="{{ site.baseurl }}/{{ site.handbooks_path }}/paulonia/processes/scrum">SCRUM</a>
             </li>
