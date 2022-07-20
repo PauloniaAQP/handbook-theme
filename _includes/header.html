@@ -33,7 +33,7 @@
             </li>
           </ul>
         </li>
-        <li {% if url_last == 'personal' and url_area == 'paulonia' %}class="Selected"{% endif %}>
+        <li {% if url_last == 'personal' and url_area == 'areas' %}class="Selected"{% endif %}>
           <a href="{{ site.baseurl }}/{{ site.handbooks_path }}/paulonia/areas/personal">Áreas</a>
         </li>
         <li {% if url_last == 'processes' and url_area == 'paulonia' %}class="Selected"{% endif %}>
@@ -86,17 +86,37 @@
         <li {% if url_last == 'studios' %}class="Selected"{% endif %}>
           <a href="{{ site.baseurl }}/{{ site.handbooks_path }}/studios/">Manual Studio</a>
         </li>
-        <li {% if url_last == 'organizacion' and url_area == 'studios' %}class="Selected"{% endif %}>
-          <a href="{{ site.baseurl }}/{{ site.handbooks_path }}/studios/organizacion">Organización</a>
-        </li>
         <li {% if url_last == 'roles' and url_area == 'studios' %}class="Selected"{% endif %}>
           <a href="{{ site.baseurl }}/{{ site.handbooks_path }}/studios/roles">Roles</a>
         </li>
-        <li {% if url_last == 'entrenamiento' and url_area == 'studios' %}class="Selected"{% endif %}>
-          <a href="{{ site.baseurl }}/{{ site.handbooks_path }}/studios/entrenamiento">Entrenamiento</a>
+        <li {% if url_last == 'processdesign' and url_area == 'studios' %}class="Selected"{% endif %}>
+          <a href="{{ site.baseurl }}/{{ site.handbooks_path }}/studios/processdesign/">Proceso de Diseño</a>
+          <ul>
+            <li {% if url_last == 'processdesign' and url_area == 'studios' %}class="Selected"{% endif %}>
+              <a href="{{ site.baseurl }}/{{ site.handbooks_path }}/studios/processdesign/">Introducción</a>
+            </li>
+            <li {% if url_last == 'descubrimiento' and url_area == 'processdesign' %}class="Selected"{% endif %}>
+              <a href="{{ site.baseurl }}/{{ site.handbooks_path }}/studios/processdesign/descubrimiento">1. Primer contacto</a>
+            </li>
+            <li {% if url_last == 'benchmark' and url_area == 'processdesign' %}class="Selected"{% endif %}>
+              <a href="{{ site.baseurl }}/{{ site.handbooks_path }}/studios/processdesign/benchmark">2. Research</a>
+            </li>
+            <li {% if url_last == 'media_fidelidad' and url_area == 'processdesign' %}class="Selected"{% endif %}>
+              <a href="{{ site.baseurl }}/{{ site.handbooks_path }}/studios/processdesign/media_fidelidad">3. Interfaces de Media Fidelidad - UX</a>
+            </li>
+            <li {% if url_last == 'alta_fidelidad' and url_area == 'processdesign' %}class="Selected"{% endif %}>
+              <a href="{{ site.baseurl }}/{{ site.handbooks_path }}/studios/processdesign/alta_fidelidad">4. Interfaces de Alta fidelidad - UI</a>
+            </li>
+            <li {% if url_last == 'testing' and url_area == 'processdesign' %}class="Selected"{% endif %}>
+              <a href="{{ site.baseurl }}/{{ site.handbooks_path }}/studios/processdesign/testing">5. Testing</a>
+            </li>
+            <li {% if url_last == 'plus' and url_area == 'processdesign' %}class="Selected"{% endif %}>
+              <a href="{{ site.baseurl }}/{{ site.handbooks_path }}/studios/processdesign/plus">6. ASM</a>
+            </li>
+          </ul>
         </li>
-        <li {% if url_last == 'procesos' and url_area == 'studios' %}class="Selected"{% endif %}>
-          <a href="{{ site.baseurl }}/{{ site.handbooks_path }}/studios/procesos">Procesos</a>
+        <li {% if url_last == 'documentos_oficiales' and url_area == 'studios' %}class="Selected"{% endif %}>
+          <a href="{{ site.baseurl }}/{{ site.handbooks_path }}/studios/documentos_oficiales">Documentos oficiales</a>
         </li>
       </ul>
     </li>
