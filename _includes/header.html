@@ -57,6 +57,9 @@
             <li {% if url_last == 'payment' and url_area == 'processes' %}class="Selected"{% endif %}>
               <a href="{{ site.baseurl }}/{{ site.handbooks_path }}/paulonia/processes/payment">Pagos</a>
             </li>
+            <li {% if url_last == 'financial' and url_area == 'processes' %}class="Selected"{% endif %}>
+              <a href="{{ site.baseurl }}/{{ site.handbooks_path }}/paulonia/processes/financial">Finanzas</a>
+            </li>
           </ul>
         </li>
         <li {% if url_last == 'security' and url_area == 'paulonia' %}class="Selected"{% endif %}>
